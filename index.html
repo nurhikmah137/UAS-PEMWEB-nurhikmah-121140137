@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAS-PEMWEB</title>
+    <script src="script.js" defer></script>
+
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 20px;
+      }
+
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input,
+      button {
+        margin-bottom: 10px;
+        padding: 8px;
+        width: 100%;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <form id="myForm" method="POST" action="process_form.php">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="nim">NIM:</label>
+      <input type="text" id="nim" name="nim" required />
+
+      <label for="checkbox">Checkbox:</label>
+      <input type="checkbox" id="checkbox" name="checkbox" />
+
+      <label for="radio">Kumpulkan Tugas:</label>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          id="radioUAS"
+          name="radio"
+          value="UAS"
+        />
+        <label class="form-check-label" for="radioUAS">UAS</label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          id="radioUTS"
+          name="radio"
+          checked
+          value="UTS"
+        />
+        <label class="form-check-label" for="radioUTS">UTS</label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <table id="dataTable" class="table">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>NIM</th>
+          <th>Cek Data</th>
+          <th>Jenis Tugas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table content will be added dynamically using JavaScript -->
+      </tbody>
+    </table>
+  </body>
+</html>
