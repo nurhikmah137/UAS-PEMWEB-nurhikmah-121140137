@@ -50,7 +50,7 @@
    
 **point 2**
 --------------------------------------------------------------------------------------------------------------------
--dikarenakan saya hanya memiliki pengalaman untuk hosting di github, maka saya hosting di github saja, namun memiliki kekurangan dalam membaca file php pada hostingan github, namun data yang telah di submit tetap akan tampil
+1. dikarenakan saya hanya memiliki pengalaman untuk hosting di github, maka saya hosting di github saja, namun memiliki kekurangan dalam membaca file php pada hostingan github, namun data yang telah di submit tetap akan tampil
 --------------------------------------------------------------------------------------------------------------------
 
 **point 3**
