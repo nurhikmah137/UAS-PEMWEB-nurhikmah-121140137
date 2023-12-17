@@ -21,7 +21,7 @@
 
 ## Demo
 
-[Link Demo Proyek](https://nurhikmah137.github.io/UAS-PEMWEB-nurhikmah-12140137/)
+[Link Demo Proyek](https://nurhikmah137.github.io/UAS-PEMWEB-nurhikmah-121140137/)
 
 
 ## Instalasi
