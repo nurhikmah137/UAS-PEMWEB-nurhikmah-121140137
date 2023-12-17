@@ -40,7 +40,7 @@
 4. maka akan terkirim ke procces.php (yang bisa di lihat pada link websitenya)
 
 ## BONUS
--**point 1**
+###**point 1**
 1. push semua file ke repository github 
 2. klik setting pada repository github yang telah dibuat
 3. ke menu pages cari tulisan build and deployment
@@ -48,12 +48,12 @@
 5. save branch nya, kemudian tunggu di deploy oleh sistem pada github
 6. ketika selesai maka ada link hosting yang telah di deploy
    
--**point 2**
+###**point 2**
 --------------------------------------------------------------------------------------------------------------------
 1. dikarenakan saya hanya memiliki pengalaman untuk hosting di github, maka saya hosting di github saja, namun memiliki kekurangan dalam membaca file php pada hostingan github, namun data yang telah di submit tetap akan tampil
 --------------------------------------------------------------------------------------------------------------------
 
--**point 3**
+###**point 3**
 website yang telah saya buat memiliki keamanan dikarenakan membuat system encrypty pada file script.js pada fungsi
 escapeHTML untuk mencegah XSS atau serangan pada sisi client
 
