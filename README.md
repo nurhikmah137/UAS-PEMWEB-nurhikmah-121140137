@@ -33,13 +33,13 @@
 3. jika anda belum mengimpor file databasenya, maka saat anda mensubmit datanya tidak masuk pada database, hanya saja menampilkan data yang telah di input
 4. jika anda ingin melihat file yang telah di submit, maka anda harus mengimpor databasenya terlebih dahulu seperti di bawah.
    
-### Cara agar terkoneksi ke database local (procces.php)
+## Cara agar terkoneksi ke database local (procces.php)
 1. anda harus mengimport database ke local php.myadmin pada file create_database.sql
 2. jika telah di import maka anda bisa merefresh laman
 3. kemudian akan muncul jika data telah di submit
 4. maka akan terkirim ke procces.php (yang bisa di lihat pada link websitenya)
 
-### BONUS
+## BONUS
 -**point 1**
 1. push semua file ke repository github 
 2. klik setting pada repository github yang telah dibuat
