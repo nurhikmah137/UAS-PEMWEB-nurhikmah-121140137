@@ -54,6 +54,6 @@
 --------------------------------------------------------------------------------------------------------------------
 
 - **point 3**
-website yang telah saya buat memiliki keamanan dikarenakan membuat system encrypty pada file script.js pada fungsi
+1. website yang telah saya buat memiliki keamanan dikarenakan membuat system encrypty pada file script.js pada fungsi
 escapeHTML untuk mencegah XSS atau serangan pada sisi client
 
