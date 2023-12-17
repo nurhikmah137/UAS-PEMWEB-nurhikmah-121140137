@@ -30,4 +30,11 @@
 
 1. Git Clone
 2. start menggunakan text editor (Vscode kemudian di demokan di localhost)
+   
+### Cara agar terkoneksi ke database local (procces.php)
+1. anda harus mengimport database ke local php.myadmin
+2. jika telah di import maka anda bisa merefresh laman
+3. kemudian akan muncul jika data telah di submit
+4. maka akan terkirim ke procces.php (yang bisa di lihat pada link websitenya)
+
 
